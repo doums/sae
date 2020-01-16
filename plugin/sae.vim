@@ -16,19 +16,19 @@ let g:sae = 1
 
 noremap <silent> <unique> <script> <Plug>SaeUp <SID>ScrollUp
 noremap <silent> <unique> <script> <Plug>SaeDown <SID>ScrollDown
-noremap <SID>ScrollUp <SID>ScrollUp()<CR>
-noremap <SID>ScrollDown <SID>ScrollDown()<CR>
+noremap <expr> <SID>ScrollUp <SID>ScrollUp()
+noremap <expr> <SID>ScrollDown <SID>ScrollDown()
 noremap <silent> <unique> <script> <Plug>SaeRight <SID>FastRight
 noremap <silent> <unique> <script> <Plug>SaeLeft <SID>FastLeft
 noremap <expr> <SID>FastRight <SID>FastRight()
 noremap <expr> <SID>FastLeft <SID>FastLeft()
 
 function s:ScrollUp()
-  execute "normal!" &scroll / 2 . "\<C-y>"
+  return &scroll / 2 . "\<C-y>"
 endfunction
 
 function s:ScrollDown()
-  execute "normal!" &scroll / 2 . "\<C-e>"
+  return &scroll / 2 . "\<C-e>"
 endfunction
 
 function s:FastRight()
