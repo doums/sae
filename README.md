@@ -4,10 +4,11 @@
 
 A simple [vim](https://www.vim.org/) plugin that enhance motions between words and lines
 
+#### what
 
-The purpose of this plugin is to provide four mappings that help move quickly between words and lines
+The purpose of this plugin is to provide four mappings that help move quickly between words and lines.
 
-**SaeUp** and **SaeDown** provide a smooth scrolling
+**SaeUp** and **SaeDown** provide a smooth scrolling.
 
 **SaeRight** and **SaeLeft** act like **w** and **b** motions but without the annoying wrapping on line break!
 
