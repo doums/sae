@@ -10,7 +10,7 @@ The purpose of this plugin is to provide four mappings that help move quickly be
 
 **SaeUp** and **SaeDown** provide a smooth scrolling.
 
-**SaeRight** and **SaeLeft** act like **w** and **b** motions but without the annoying wrapping on line break!
+**SaeRight** and **SaeLeft** act exactly like **w** and **b** motions but without the annoying wrapping on line break!
 
 #### install
 
