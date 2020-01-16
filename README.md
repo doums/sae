@@ -30,6 +30,8 @@ then run in vim
 #### usage
 normal mod
 ```
+nmap <A-j> <Plug>SaeUp
+nmap <A-k> <Plug>SaeDown
 nmap <A-l> <Plug>SaeRight
 nmap <A-h> <Plug>SaeLeft
 ```
