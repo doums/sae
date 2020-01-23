@@ -35,7 +35,7 @@ function s:FastRight()
   if search('\%#\w\+\s*$', 'cnWz') > 0
     return '$'
   endif
-  if search('\%#\W\+\s*$', 'cnWz') > 0
+  if search('\%#\W\+$', 'cnWz') > 0
     return '$'
   endif
   return 'w'
